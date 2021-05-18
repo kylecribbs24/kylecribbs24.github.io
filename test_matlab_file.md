@@ -3,8 +3,8 @@ layout: page
 toc: true
 title: Matlab overview & tutorial links
 slug: matlab
-type: setup
-order: 3
+type: development
+order: 13
 ---
 
 
