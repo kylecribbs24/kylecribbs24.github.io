@@ -93,7 +93,9 @@ The command `legend('sine', 'cosine')` adds a legend to the side with the first 
 
 Using the commands shown, try to create a graph to look like the following picture.
 
-![plot picture](/This PC/Documents/Work/Computing_Bootcamp/2D-plot)
+![plot picture](/OneDrive/Documents/Work/Computing_Bootcamp/2D-plot.fig)
+
+<img src = "{% link /OneDrive/Documents/Work/Computing_Bootcamp/2D-plot.fig %}" width="600">
 
 
 Learn more about plotting in Matlab:
