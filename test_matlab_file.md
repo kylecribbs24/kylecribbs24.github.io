@@ -89,7 +89,7 @@ To plot multiple functions on the same graph, create the vectors for each functi
   plot(x,y1, x,y2);
 ```
 
-The command `legend('sine', 'cosine')` adds a legend to the side with the first label in the parenthesis corresponding to the first function in the `plot` command.
+The command "[legend](https://www.mathworks.com/help/matlab/creating_plots/add-legend-to-graph.html)('sine', 'cosine')" adds a legend to the side with the first label in the parenthesis corresponding to the first function in the `plot` command.
 
 ### Try it
 
