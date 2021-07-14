@@ -56,7 +56,7 @@ creates a vector starting at zero, ending at 100, which is incremented up by 5.
 
 The command `plot(x,y)` creates a line-plot of the vectors x and y.  Make sure vectors x and y are of equal length.  For example, the vector
 ```
-  x = 0:pi/30:4*pi;
+  x = 0:pi/50:4*pi;
 ```
 creates a vector starting at 0 and incrementing up to 2pi.
 
