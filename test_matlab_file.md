@@ -70,7 +70,9 @@ We can then use the command
 ```
   plot(x,y);
 ```
-to graph vector y versus x.
+to graph vector y versus x:
+
+<img src = "{% link /Media/matlab_sine_plot.png %}" width="600">
 
 Adding a title and axis labels can be achieved using the following commands:
 ```
@@ -89,7 +91,7 @@ To plot multiple functions on the same graph, create the vectors for each functi
 
 The command `legend('sine', 'cosine')` adds a legend to the side with the first label in the parenthesis corresponding to the first function in the `plot` command.
 
-#### Try it
+### Try it
 
 Using the commands shown, try to create a graph to look like the following picture.
 
