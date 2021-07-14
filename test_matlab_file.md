@@ -54,7 +54,7 @@ Matlab offers a number of plotting capabilities.  The basic 2-D line plot requir
 ``` 
 creates a vector starting at zero, ending at 100, which is incremented up by 5.
 
-The command `plot(x,y)` creates a line-plot of the vectors x and y.  Make sure vectors x and y are of equal length.  For example, the vector
+[plot](https://www.mathworks.com/help/matlab/ref/plot.html#btzpm1x)(x,y) creates a line-plot of the vectors x and y.  Make sure vectors x and y are of equal length.  For example, the vector
 ```
   x = 0:pi/50:4*pi;
 ```
