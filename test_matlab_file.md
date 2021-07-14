@@ -58,7 +58,7 @@ The command `plot(x,y)` creates a line-plot of the vectors x and y.  Make sure v
 ```
   x = 0:pi/50:4*pi;
 ```
-creates a vector starting at 0 and incrementing up to 2pi.
+creates a vector starting at 0 and incrementing up to 4 pi.
 
 We can make vectors using existing vectors as well. The vector
 ```
