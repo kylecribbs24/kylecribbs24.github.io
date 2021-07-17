@@ -48,6 +48,8 @@ FIXME: ADD PICTURE OF OUTPUT x = 2 + 2;
 
 ## Basic plotting
 
+### 2-D plots
+
 Matlab offers a number of plotting capabilities.  The basic 2-D line plot requires the use of vectors, which can be created by using the form (starting point):(increment):(ending point). For example, the vector
 ```
   my_vector = 0:5:100
@@ -91,12 +93,34 @@ To plot multiple functions on the same graph, create the vectors for each functi
 
 [legend](https://www.mathworks.com/help/matlab/creating_plots/add-legend-to-graph.html)('sine', 'cosine') adds a legend to the side with the first label in the parenthesis corresponding to the first function in the `plot` command.
 
-### Try it
+#### Try it
 
-Using the commands shown, try to create a graph to look like the following picture.
+Using the commands shown, try to create a graph to look like the following image.
 
 
 <img src = "{% link /Media/matlab_2D_plot.png %}" width="600">
+
+
+### 3-D plots
+
+[plot3](https://www.mathworks.com/help/matlab/ref/plot3.html?)(X,Y,Z) plots a function in 3-D.
+
+The commands
+```
+  x = 0:0.1:30;
+  y = sin(x);
+  z = cos(x);
+  plot3(x,y,z);
+```
+produces the following graph:
+
+*insert image here*
+
+#### Try it
+
+Try to recreate the following image. (Hint: use `.*` to multiply an element of one vector by an element of another vector)
+
+*insert image here*
 
 
 Learn more about plotting in Matlab:
