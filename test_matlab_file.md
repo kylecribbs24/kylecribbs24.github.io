@@ -93,6 +93,7 @@ To plot multiple functions on the same graph, create the vectors for each functi
 
 [legend](https://www.mathworks.com/help/matlab/creating_plots/add-legend-to-graph.html)('sine', 'cosine') adds a legend to the side with the first label in the parenthesis corresponding to the first function in the `plot` command.
 
+
 #### Try it
 
 Using the commands shown, try to create a graph to look like the following image.
@@ -115,6 +116,13 @@ The commands
 produces the following graph:
 
 *insert image here*
+
+The style and color of the line can also be changed by adding another argument in the `plot` function. For example,
+```
+plot3(x,y,z,'--');
+```
+would produce a dashed line.
+
 
 #### Try it
 
