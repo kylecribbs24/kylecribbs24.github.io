@@ -117,7 +117,7 @@ produces the following graph:
 
 *insert image here*
 
-The style and color of the line can also be changed by adding another argument in the `plot` function. For example,
+The style and color of the line [can be changed](https://www.mathworks.com/help/matlab/ref/plot.html#btzitot_sep_mw_3a76f056-2882-44d7-8e73-c695c0c54ca8) by adding another argument in the `plot` function. For example,
 ```
 plot3(x,y,z,'--');
 ```
