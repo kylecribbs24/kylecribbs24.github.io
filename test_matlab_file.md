@@ -130,6 +130,19 @@ Try to recreate the following image. (Hint: use `.*` to multiply an element of o
 
 *insert image here*
 
+[surf](https://www.mathworks.com/help/matlab/ref/surf.html?)(X,Y,Z) produces a 3-D surface with solid face colors.  This function plots the values of matrix Z as a height of a grid on the x-y plane formed by using the `meshgrid` command.  The surface's color changes depending on its height.
+
+```
+[X,Y] = meshgrid(1:0.5:10,1:0.5:20);
+Z = log(X) + cos(Y);
+surf(X,Y,Z);
+```
+creates the following surface:
+
+*insert image here*
+
+
+
 
 Learn more about plotting in Matlab:
   - [MathWorks plot Help Center](https://www.mathworks.com/help/matlab/ref/plot.html)
