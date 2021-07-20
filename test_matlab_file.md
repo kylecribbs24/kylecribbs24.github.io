@@ -148,6 +148,7 @@ Learn more about plotting in Matlab:
   - [MathWorks plot Help Center](https://www.mathworks.com/help/matlab/ref/plot.html)
   - [BYU ECEn 240 Matlab Intro](http://ecenmatlab.groups.et.byu.net/lib/exe/fetch.php?media=240matlab:ch0:matlab_intro.pdf)
   - [Tutorialspoint Matlab Plotting](https://www.tutorialspoint.com/matlab/matlab_plotting.htm)
+  - [Create the MATLAB logo](https://www.mathworks.com/help/matlab/visualize/creating-the-matlab-logo.html)
 
 
 FIXME: add more content
