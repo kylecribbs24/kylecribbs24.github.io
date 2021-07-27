@@ -136,7 +136,7 @@ Try to recreate the following image. (Hint: use `.*` to multiply an element of o
 
 [surf](https://www.mathworks.com/help/matlab/ref/surf.html?)(X,Y,Z) produces a 3-D surface with solid face colors.  This function plots the values of matrix Z as a height of a grid on the x-y plane formed by using the `meshgrid` command.  The surface's color changes depending on its height.
 
-The command `colorbar` displays a bar to reference the values of the different colors of the surface, and [axis](https://www.mathworks.com/help/matlab/ref/axis.html)(/[limit/]) can change the axis of the plot.
+The command `colorbar` displays a bar to reference the values of the different colors of the surface, and [axis](https://www.mathworks.com/help/matlab/ref/axis.html)(\[limit\]) can change the axis of the plot.
 
 The commands
 ```
