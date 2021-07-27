@@ -117,7 +117,9 @@ produces the following graph:
 
 *insert image here*
 
-The style and color of the line [can be changed](https://www.mathworks.com/help/matlab/ref/plot.html#btzitot_sep_mw_3a76f056-2882-44d7-8e73-c695c0c54ca8) by adding another argument in the `plot` function. For example,
+The style and color of the line [can be changed](https://www.mathworks.com/help/matlab/ref/plot.html#btzitot_sep_mw_3a76f056-2882-44d7-8e73-c695c0c54ca8) by adding another argument in the `plot` function.
+
+For example,
 ```
 plot3(x,y,z,'--');
 ```
@@ -130,18 +132,32 @@ Try to recreate the following image. (Hint: use `.*` to multiply an element of o
 
 *insert image here*
 
+### Surfaces
+
 [surf](https://www.mathworks.com/help/matlab/ref/surf.html?)(X,Y,Z) produces a 3-D surface with solid face colors.  This function plots the values of matrix Z as a height of a grid on the x-y plane formed by using the `meshgrid` command.  The surface's color changes depending on its height.
 
+The command `colorbar` displays a bar to reference the values of the different colors of the surface, and [axis](https://www.mathworks.com/help/matlab/ref/axis.html)(/[limit/]) can change the axis of the plot.
+
+The commands
 ```
-[X,Y] = meshgrid(1:0.5:10,1:0.5:20);
-Z = log(X) + cos(Y);
+[X,Y] = meshgrid(0:0.1:10,0:2:20);
+Z = sin(X);
 surf(X,Y,Z);
+axis([0 10 -5 25 -2 2]);
+colorbar;
 ```
 creates the following surface:
 
 *insert image here*
 
 
+
+
+#### Try it
+
+Using one of the [other surface and mesh plots](https://www.mathworks.com/help/matlab/surface-and-mesh-plots-1.html), as well as a certain combination of a sine and cosine function produces the following surface:
+
+*insert image here*
 
 
 Learn more about plotting in Matlab:
