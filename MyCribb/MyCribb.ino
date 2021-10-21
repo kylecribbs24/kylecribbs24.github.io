@@ -182,12 +182,6 @@ void loop() {
     digitalWrite(FAN_PIN, LOW);
     digitalWrite(AC_PIN, LOW);
   }
-
-/*
-  // return if the value hasn't changed
-  if(f == lastf)
-    return;
-*/
   
   // store last temp state
   lastf = f;
